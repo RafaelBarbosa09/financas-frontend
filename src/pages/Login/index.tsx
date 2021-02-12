@@ -14,12 +14,12 @@ const Login: React.FC = () => (
         <input placeholder="Senha"/>
 
         <button type="submit">Entrar</button>
-
-        <a href="">
-          <FiLogIn/>
-          Criar conta
-        </a>
       </form>
+
+      <a href="">
+        <FiLogIn/>
+        Criar conta
+      </a>
     </Content>
   </Container>
 );

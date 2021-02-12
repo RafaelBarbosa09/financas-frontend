@@ -9,10 +9,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F4F3EF;
+    background: #312e38;
     -webkit-font-smoothing: antialiased;
-
-    color: #66615b;
   }
 
   body, input, button {
@@ -23,13 +21,10 @@ export default createGlobalStyle`
 
   h1, h2, h3, h4 {
     font-weight: 400;
+    color: #fff;
   }
 
   button {
     cursor: pointer;
   }
-
-  /**
-    border-bottom: 1px solid rgba(0,0,0,.125);
-  */
 `;
